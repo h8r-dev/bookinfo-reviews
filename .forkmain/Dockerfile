@@ -1,7 +1,7 @@
 ##
 ## Build
 ##
-FROM openjdk:18 AS builder
+FROM openjdk:8 AS builder
 
 WORKDIR /workdir
 
