@@ -12,7 +12,7 @@ RUN ./gradlew build && cp build/libs/*.jar build/libs/app.jar
 ##
 ## Run
 ##
-FROM openjdk:18
+FROM openjdk:8
 
 WORKDIR /workdir
 
