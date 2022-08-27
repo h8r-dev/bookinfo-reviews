@@ -7,7 +7,7 @@ WORKDIR /workdir
 
 COPY ./ ./
 
-RUN ./gradlew build && cp "build/libs/*.jar build/libs/app.jar
+RUN ./gradlew build && cp "build/libs/*.jar build/libs/app.jar"
 
 ##
 ## Run
